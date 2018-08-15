@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:700');
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.clr {
+    clear: both;
+}
+
+
+img {
+    filter: grayscale(30%)
+}
+
+a {
+    text-decoration: none;
+    color: #efefef;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #444;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header {
+
+    border-bottom: 2px solid lightgrey;
+    height: 150vh;
+    background: linear-gradient(rgba(44, 44, 44, 0.6), rgba(44, 44, 44, 0.6)), url('../images/thai-som-tum.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    margin-top: 15px;
+    color: #efefef;
+}
+
+.logodiv {
+    float: left;
+}
+
+.navbar {
+    float: right;
+    line-height: 3em;
+}
+
+.contenthead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.p1 {
+    font-family: 'Libre Franklin', sans-serif;
+    text-transform: uppercase;
+    font-size: 65px;
+    color: #efefef;
+    width: 50%;
+    text-align: center;
+}
+
+.p2 {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #efefef;
+}
+
+#section1 {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: #444;
+}
+
+.content1 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 25px;
+}
+
+.content2 {
+    font-size: 21px;
+    line-height: 1.75em;
+}
+
+#section2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: #efefef;
+    background: linear-gradient(rgba(44, 44, 44, 0.45), rgba(44, 44, 44, 0.45)), url('../images/Function-Food.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content3 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.content4 {
+    font-size: 21px;
+    width: 60%;
+    margin: auto;
+    line-height: 1.75em;
+}
+
+.reservecontent {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.reservecontent p {
+    border: 2px solid #efefef;
+    margin-top: -120px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 22px;
+}
+
+.reservecontent p:hover {
+    background-color: #efefef;
+    color: #444;
+    cursor: pointer;
+}
+
+#section3 {
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imagecontent {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fig {
+    margin: 10px;
+}
+
+
+#section4 {
+    height: 100vh;
+    color: #777;
+}
+
+.contentbox {
+    display: flex;
+    text-align: justify;
+    font-size: 21px;
+}
+
+.content5 {
+    width: 90%;
+    margin: 0px 10px;
+}
+
+.content6 {
+    width: 90%;
+    margin: 0px 30px;
+}
+
+.viewmenu {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.viewmenu p {
+    border: 2px solid #444;
+    padding: 8px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.viewmenu p:hover {
+    color: #efefef;
+    background-color: #444;
+}
+
+#section5 {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.6)), url('../images/kitchen.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.kitchen {
+    text-align: center;
+    margin-top: 350px;
+    font-size: 48px;
+    font-family: 'Libre Franklin', sans-serif;
+    text-transform: uppercase;
+    color: #efefef;
+}
+
+#section6 {
+    height: 140vh;
+}
+
+.contentbox-5 {
+    display: flex;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.content7 {
+    margin: 15px;
+    text-align: justify;
+}
+
+.content7 h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 24px;
+    color: #444;
+}
+
+.content7 p {
+    color: #777;
+    font-size: 18px;
+}
+
+.imgcontent {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+footer {
+    height: 92vh;
+    background-color: #3C342F;
+    color: #efefef;
+    padding: 0;
+    margin: 0;
+
+}
+
+.locationbox {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.lastbox {
+    width: 20%;
+    margin: 20px;
+}
+
+.lastpara {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #3C342F;
+}
+
+.socialbox {
+    margin-top: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.socialbox:hover {
+    color: grey;
+}
+
+.facebook:hover {
+    color: rgb(0, 132, 255);
+}
+
+.twitter:hover {
+    color: rgb(0, 132, 255);
+}
+
+.instagram:hover {
+    color: rgb(255, 72, 0);
+}
+
+.whatsapp:hover {
+    color: rgb(14, 133, 20);
+}
+
+.google:hover {
+    color: rgb(255, 251, 0);
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.cursive {
+    font-size: 16px;
+    font-style: italic;
+}
